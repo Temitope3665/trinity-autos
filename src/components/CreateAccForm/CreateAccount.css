@@ -1,0 +1,100 @@
+.create-acc-wrapper {
+    background-color: #F5FCFF;
+  }
+  
+  .create-acc-heading {
+    color: #303B40;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .create-acct-sub-heading {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -6px;
+  }
+  
+  .form-wrapper {
+    background: #fff;
+    width: 35%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.15);
+  }
+  
+  
+  .create-acc-btn-wrapper {
+    padding: 0 30px;
+  }
+  
+  .create-acc-btn {
+    margin-top: 39px;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 0 auto;
+    outline: none;
+    background: #109BDF;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(16, 155, 223, 0.25);
+  }
+  
+  .or-text {
+    color: #677D88;
+    font-size: 16px;
+  }
+  
+  .sm-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 27px;
+  }
+  
+  .sm-btn {
+    box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.15);
+    background: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 18px 23px;
+    font-size: 16px;
+    color: #677D88;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+  .eye-toggle {
+    cursor: pointer;
+    margin-top: -40px;
+    margin-right: 15px;
+    float: right;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .password-input {
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .sm-login {
+      flex-direction: column;
+    }
+    .sm-btn {
+      text-align: center;
+    }
+    .form-wrapper {
+        width: 50%;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+    .form-wrapper {
+      width: 80%;
+    }
+  }

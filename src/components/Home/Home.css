@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+.landing-page {
+    background: #F5FCFF;
+    margin-top: 137px;
+}
+
+.landing-page-heading {
+    font-family: 'Changa One';
+    font-size: 48px;
+    color: #303B40;
+    margin-top: 30px;
+}
+
+.landing-page-heading span {
+    font-family: 'Changa One';
+    display: block;
+}
+
+.landing-page-sub-heading {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #677D88;
+    margin: 32px 0;
+}
+.landing-page-sub-heading span {
+    font-family: 'Open Sans';
+    display: block;
+}
+
+.landing-page-section-one {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.landing-page-btn {
+    background: #109BDF;
+    box-shadow: 0px 2px 8px rgba(16, 155, 223, 0.25);
+    border-radius: 8px;
+    color: #fff;
+    padding: 16px 32px;
+    border: none;
+    font-size: 16px;
+}
+
+.landing-page-btn:hover {
+    color: #d4ebf5;
+    background: #3CC08E;
+}
+
+.hero-floor {
+    width: 100%;
+    margin-top: -110px;
+    z-index: 0;
+}
+
+.chat-btn {
+    margin-top: -300px;
+    position: relative;
+    float: right;
+    margin-right: 60px;
+}
+
+.list-cars-heading {
+    color: #303B40;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.landing-page-section-two {
+    display: flex;
+    justify-content: space-around;
+    margin: 47px 0;
+    align-items: center;
+}
+
+.more-btn {
+    padding: 16px 80px;
+    background: #F5FCFF;
+    border: 1px solid #109BDF;
+    border-radius: 32px;
+    margin-top: 32px;
+    display: flex;
+    font-size: 16px;
+    color: #109BDF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.more-btn:hover {
+    border: 1px solid #3CC08E;
+    color: #3CC08E;
+}
+
+.services-wrapper {
+    background: #59C7FC;
+    margin-top: 41px;
+    background-image: url(../icons/anchor.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    background: #F5FCFF;
+    border-radius: 32px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+}
+
+.cards-wrapper {
+    margin: 100px 0;
+    padding: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 72px;
+    height: 72px;
+    align-self: center;
+}
+
+.card-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5FCFF;
+    text-align: center;
+}
+
+.card-subtitle span {
+    display: block;
+}
+
+.wraps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .landing-page-section-one {
+        flex-direction: column;
+        text-align: center;
+        margin: -60px 0;
+    }
+
+    .hero-car {
+        width: -webkit-fill-available;
+    }
+
+    .landing-page-right-side {
+        margin-top: 40px;
+    }
+
+    .hero-floor {
+        margin-top: 0;
+        margin-top: -50px;
+    }
+
+    .chat-btn {
+        margin-top: -100px;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chat-btn {
+        margin-top: -40px;
+        width: 15%;
+    }
+
+    .hero-floor {
+        margin-top: 0;
+        margin-top: -20px;
+    }
+
+    .landing-page-left-side {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 614px) {
+    .landing-page-section-two {
+        flex-direction: column;
+    }
+
+    .services-wrapper {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .cards-wrapper {
+        margin: 20px 0;
+        justify-content: center;
+    }
+}

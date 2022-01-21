@@ -1,0 +1,90 @@
+.all-vehicle-wrapper {
+    margin-left: 160px;
+}
+
+.all-vehicle-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #303B40;
+    margin-top: 24px;
+}
+
+.select-option {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(128, 128, 128, 0.25);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin-right: 20px;
+    color: #677D88;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.filter-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.filter-text {
+    margin-top: 7px;
+    margin-right: 10px;
+    color: #677D88;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sort-text {
+    margin: 7px 10px;
+    color: #677D88;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pagination-wrapper {
+    background: #F4F8FA;
+    box-shadow: 0px 1px 2px rgba(128, 128, 128, 0.15);
+    border-radius: 8px;
+    margin: 32px auto;
+    padding: 13px;
+    width: fit-content;
+    display: block;
+    cursor: pointer;
+}
+
+.arrow-btn {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.25);
+    border-radius: 8px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+}
+
+.pagination-number {
+    font-size: 16px;
+    color: #109BDF;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 973px) {
+    
+}
+
+@media screen and (max-width: 670px) {
+    .all-vehicle-wrapper {
+        flex-direction: column;
+        margin: 0 30px;
+    }
+
+    .filter-wrapper {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .select-option {
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
